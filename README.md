@@ -1,4 +1,4 @@
-optimization
+# Implementation of Differential Evolution and Particle Swarm Optimization Algorithms
 
 This repository contains implementations of Differential Evolution (DE) and Particle Swarm Optimization (PSO) algorithms applied to 8 benchmark optimization functions:
 
@@ -11,7 +11,27 @@ This repository contains implementations of Differential Evolution (DE) and Part
 - Griewank’s Function
 - Rastrigin’s Function
 
-These functions are widely used to evaluate the performance of optimization algorithms in various research and applications.
+## Control Parameter Settings
+
+### Differential Evolution (DE)
+- **Population Size (Np):** 100
+- **Crossover Probability (Cr):** 0.9
+- **Scaling Factor (F):** 0.8
+- **Scheme:** Canonical scheme: DE/bin/1
+
+### Particle Swarm Optimization (PSO)
+- **Population Size (Np):** 100
+- **Cognitive Coefficient (C1):** 2.05
+- **Social Coefficient (C2):** 2.05
+- **Inertia Weight (W):** Linearly decreasing from 0.9 to 0.4
+- **Maximum Velocity (v_max):** 0.1 * (x_max - x_min)
+- **Minimum Velocity (v_min):** -v_max
+
+### Problem Settings
+- **Dimensions (D):** 2, 10, 20
+- **Variable Range:** [-10, 10]
+- **Number of Runs:** 31
+- **Termination Condition:** Max_NFC = 3000 * D
 
 ## Comparison of DE and PSO Algorithms
 
