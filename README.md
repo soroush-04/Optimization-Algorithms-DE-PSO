@@ -37,74 +37,56 @@ This repository contains implementations of Differential Evolution (DE) and Part
 
 Below is a comparison of the DE and PSO algorithms across the benchmark functions:
 
-<div align="center">
-    <img src="./images/comparison.png" alt="Comparison of DE and PSO D2" style="width: 80%; height: auto; margin-bottom: 10px;" />
-    <img src="./images/comparison2.png" alt="Comparison of DE and PSO D10" style="width: 80%; height: auto; margin-bottom: 10px;" />
-    <img src="./images/comparison3.png" alt="Comparison of DE and PSO D20" style="width: 80%; height: auto;" />
-</div>
+| Dimension 2 | Dimension 10 | Dimension 20 |
+|:--------------:|:---------------:|:---------------:|
+| ![D2](./images/comparison.png)  | ![D10](./images/comparison2.png) | ![D20](./images/comparison3.png) |
 
 ## Visualization of DE and PSO Algorithms on Benchmark Functions (D=2)
 
-### High Conditioned Elliptic Function 
-###### DE | PSO
+### High Conditioned Elliptic Function
 
-<div style="display: flex; justify-content: center;">
-    <img src="./images/Elliptic_DE.png" alt="DE Population on Elliptic Function" style="width: 45%; height: auto; margin-right: 10px;" />
-    <img src="./images/Elliptic_PSO.png" alt="PSO Population on Elliptic Function" style="width: 45%; height: auto;" />
-</div>
+| DE | PSO |
+|:----------------------------------:|:----------------------------------:|
+| ![DE](./images/Elliptic_DE.png)    | ![PSO](./images/Elliptic_PSO.png)   |
 
-### Bent Cigar Function 
-###### DE | PSO
+### Bent Cigar Function
 
-<div style="display: flex; justify-content: center;">
-    <img src="./images/BentCigar_DE.png" alt="DE Population on Bent Cigar Function" style="width: 45%; height: auto; margin-right: 10px;" />
-    <img src="./images/BentCigar_PSO.png" alt="PSO Population on Bent Cigar Function" style="width: 45%; height: auto;" />
-</div>
+| DE | PSO |
+|:-------------------------------------:|:-------------------------------------:|
+| ![DE](./images/BentCigar_DE.png)    | ![PSO](./images/BentCigar_PSO.png)   |
 
-### Discus Function 
-###### DE | PSO
+### Discus Function
 
-<div style="display: flex; justify-content: center;">
-    <img src="./images/Discus_DE.png" alt="DE Population on Discus Function" style="width: 45%; height: auto; margin-right: 10px;" />
-    <img src="./images/Discus_PSO.png" alt="PSO Population on Discus Function" style="width: 45%; height: auto;" />
-</div>
+| DE | PSO |
+|:--------------------------------:|:--------------------------------:|
+| ![DE](./images/Discus_DE.png)    | ![PSO](./images/Discus_PSO.png)   |
 
-### Rosenbrock’s Function 
-###### DE | PSO
+### Rosenbrock’s Function
 
-<div style="display: flex; justify-content: center;">
-    <img src="./images/Rosenbrock_DE.png" alt="DE Population on Rosenbrock’s Function" style="width: 45%; height: auto; margin-right: 10px;" />
-    <img src="./images/Rosenbrock_PSO.png" alt="PSO Population on Rosenbrock’s Function" style="width: 45%; height: auto;" />
-</div>
+| DE | PSO |
+|:---------------------------------------:|:---------------------------------------:|
+| ![DE](./images/Rosenbrock_DE.png)      | ![PSO](./images/Rosenbrock_PSO.png)     |
 
-### Ackley’s Function 
-###### DE | PSO
+### Ackley’s Function
 
-<div style="display: flex; justify-content: center;">
-    <img src="./images/Ackley_DE.png" alt="DE Population on Ackley’s Function" style="width: 45%; height: auto; margin-right: 10px;" />
-    <img src="./images/Ackley_PSO.png" alt="PSO Population on Ackley’s Function" style="width: 45%; height: auto;" />
-</div>
+| DE | PSO |
+|:----------------------------------:|:----------------------------------:|
+| ![DE](./images/Ackley_DE.png)      | ![PSO](./images/Ackley_PSO.png)     |
 
-### Weierstrass Function 
-###### DE | PSO
+### Weierstrass Function
 
-<div style="display: flex; justify-content: center;">
-    <img src="./images/Weierstrass_DE.png" alt="DE Population on Weierstrass Function" style="width: 45%; height: auto; margin-right: 10px;" />
-    <img src="./images/Weierstrass_PSO.png" alt="PSO Population on Weierstrass Function" style="width: 45%; height: auto;" />
-</div>
+| DE | PSO |
+|:-------------------------------------:|:-------------------------------------:|
+| ![DE](./images/Weierstrass_DE.png)    | ![PSO](./images/Weierstrass_PSO.png)   |
 
-### Griewank’s Function 
-###### DE | PSO
+### Griewank’s Function
 
-<div style="display: flex; justify-content: center;">
-    <img src="./images/Griewank_DE.png" alt="DE Population on Griewank’s Function" style="width: 45%; height: auto; margin-right: 10px;" />
-    <img src="./images/Griewank_PSO.png" alt="PSO Population on Griewank’s Function" style="width: 45%; height: auto;" />
-</div>
+| DE | PSO |
+|:------------------------------------:|:------------------------------------:|
+| ![DE](./images/Griewank_DE.png)      | ![PSO](./images/Griewank_PSO.png)     |
 
-### Rastrigin’s Function 
-###### DE | PSO
+### Rastrigin’s Function
 
-<div style="display: flex; justify-content: center;">
-    <img src="./images/Rastrigin_DE.png" alt="DE Population on Rastrigin’s Function" style="width: 45%; height: auto; margin-right: 10px;" />
-    <img src="./images/Rastrigin_PSO.png" alt="PSO Population on Rastrigin’s Function" style="width: 45%; height: auto;" />
-</div>
+| DE | PSO |
+|:-------------------------------------:|:-------------------------------------:|
+| ![DE](./images/Rastrigin_DE.png)      | ![PSO](./images/Rastrigin_PSO.png)     |
