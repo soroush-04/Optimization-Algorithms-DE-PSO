@@ -17,4 +17,8 @@ These functions are widely used to evaluate the performance of optimization algo
 
 Below is a comparison of the DE and PSO algorithms across the benchmark functions:
 
-![Comparison of DE and PSO](./images/comparison.png)
+<div style="display: flex; justify-content: center;">
+    <img src="./images/comparison.png" alt="Comparison of DE and PSO D2" width="300" />
+    <img src="./images/comparison2.png" alt="Comparison of DE and PSO D10" width="300" style="margin-left: 10px;" />
+    <img src="./images/comparison3.png" alt="Comparison of DE and PSO D20" width="300" style="margin-left: 10px;" />
+</div>
