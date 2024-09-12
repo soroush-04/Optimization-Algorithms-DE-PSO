@@ -35,8 +35,6 @@ This repository contains implementations of Differential Evolution (DE) and Part
 
 ## Comparison of DE and PSO Algorithms
 
-Below is a comparison of the DE and PSO algorithms across the benchmark functions:
-
 | Dimension 2 | Dimension 10 | Dimension 20 |
 |:--------------:|:---------------:|:---------------:|
 | ![D2](./images/comparison.png)  | ![D10](./images/comparison2.png) | ![D20](./images/comparison3.png) |
